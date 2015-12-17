@@ -1,6 +1,6 @@
 // Import the normalize plugin
 $legacy-support-for-ie6: 0;
-$legacy-support-for-ie7: 1;
+$legacy-support-for-ie7: 0;
 $legacy-support-for-mozilla: 0;
 
 @import "normalize";
@@ -42,7 +42,7 @@ p:first-child {
   text-indent: 0;
 }
 
-.dropcap { 
+.dropcap {
   float: left;
   display: inline-block;
   padding-top: 4px;
